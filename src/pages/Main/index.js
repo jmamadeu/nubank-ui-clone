@@ -97,8 +97,8 @@ export default function Main() {
 
             <CardFooter>
               <Anotation>
-                Transferência de AKZ 990,90 recebida de Mateus Aalexandrehoje às
-                06:0min.
+                Transferência de AKZ 500.990,90 recebida de Mateus
+                Aalexandrehoje às 06:0min.
               </Anotation>
             </CardFooter>
           </Card>
