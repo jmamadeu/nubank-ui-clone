@@ -1,19 +1,17 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar, View } from 'react-native';
+
+import Main from './src/pages/Main';
 
 export default function App() {
+  const hexaColor = '#8B10AE';
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <>
+      <View style={{ flex: 1, backgroundColor: hexaColor }}>
+        <StatusBar barStyle='light-content' backgroundColor={hexaColor} />
+        <Main />
+      </View>
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
